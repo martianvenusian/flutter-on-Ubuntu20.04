@@ -5,8 +5,9 @@
 #### Install flutter manually
 1. Download here: https://flutter.dev/docs/get-started/install/linux
 
-`$ cd ~`
-`$ tar xf ~/Downloads/flutter_linux_1.22.5-stable.tar.xz`
+    `$ cd ~`
+    
+    `$ tar xf ~/Downloads/flutter_linux_1.22.5-stable.tar.xz`
 
 2. Set path:
 ```export PATH="$PATH:`pwd`/flutter/bin"```
@@ -18,7 +19,7 @@
 `$ flutter precache`
 
 5. Run flutter doctor:
-`$ flutter precache`
+`$ flutter doctor`
 
 ```
 Downloading Material fonts...                                       0.3s
