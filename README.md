@@ -78,7 +78,60 @@ https://developer.android.com/studio
 
 `source ~/.bashrc`
 
-3. Run Android Studio 
+3. Install android licenses
+`$ flutter doctor`
+```
+Doctor summary (to see all details, run flutter doctor -v):
+[✓] Flutter (Channel stable, 1.22.5, on Linux, locale en_US.UTF-8)
+[!] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    ✗ Android licenses not accepted.  To resolve this, run: flutter doctor --android-licenses
+[!] Android Studio
+    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+    ✗ Dart plugin not installed; this adds Dart specific functionality.
+[!] Connected device
+    ! No devices available
+
+! Doctor found issues in 3 categories.
+```
+
+`$ flutter doctor --android-licenses`
+
+`$ flutter doctor`
+
+```
+Doctor summary (to see all details, run flutter doctor -v):
+[✓] Flutter (Channel stable, 1.22.5, on Linux, locale en_US.UTF-8)
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+[!] f Studio
+    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+    ✗ Dart plugin not installed; this adds Dart specific functionality.
+[!] Connected device
+    ! No devices available
+
+! Doctor found issues in 2 categories.
+```
+
+4. Set Flutter and Dart plugin
+
+1.) Start the Android Studio application
+2.) Open plugin preferences (Preferences>Plugins on macOS, File>Settings>Plugins on Windows & Linux).
+3.) Select Browse repositories…, select the Flutter plug-in and click install .
+4.) Click Yes when prompted to install the Dart plugin.
+5.) Click Restart when prompted.
+
+![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/flutter_plug-in_1.png?raw=true)
+![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/flutter_plug-in_2.png?raw=true)
+
+
+### Run Android 
+
+1. Run Android Studio 
    
 `studio.sh`
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/android_install_1.png?raw=true)
+
+5. Create new application
+![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/android_new_appicaiton_1.png?raw=true)
+
+6. Go to Tools/Android SDK/
+![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/android_sdk_1.png?raw=true)
