@@ -72,10 +72,13 @@ https://developer.android.com/studio
 
 `$ tar xf ~/Downloads/android-studio-ide-201.6953283-linux.tar.gz`
 
+2. Set the path
+   
 `echo 'export PATH=$PATH:~/android-studio/bin' >> ~/.bashrc`
 
 `source ~/.bashrc`
 
-2. Run Android Studio 
+3. Run Android Studio 
+   
 `studio.sh`
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/android_install_1.png?raw=true)
