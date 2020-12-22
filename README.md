@@ -5,6 +5,7 @@
 `sudo apt update`
 
 1. Download here: https://flutter.dev/docs/get-started/install/linux
+
 `$ cd ~`
 `$ tar xf ~/Downloads/flutter_linux_1.22.5-stable.tar.xz`
 
