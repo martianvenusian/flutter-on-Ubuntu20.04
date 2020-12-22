@@ -1,4 +1,4 @@
-# flutter-on-Ubuntu20.04
+# Flutter-on-Ubuntu20.04
 ## Install Flutter on Ubuntu 20.04 LTS
 
 ### Install Flutter manually
@@ -67,6 +67,7 @@ OR
 ### Install Android 
 1. Download android studio
 https://developer.android.com/studio
+
 `$ ~cd`
 `$ tar xf ~/Downloads/android-studio-ide-201.6953283-linux.tar.gz`
 `echo 'export PATH=$PATH:~/android-studio/bin' >> ~/.bashrc`
