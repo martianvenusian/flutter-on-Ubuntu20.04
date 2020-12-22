@@ -3,7 +3,7 @@
 
     
 #### Install flutter manually
-1. Download here: https://flutter.dev/docs/get-started/install/linux
+ - Download here: https://flutter.dev/docs/get-started/install/linux
 
     `$ sudo apt update`
 
@@ -11,19 +11,19 @@
 
     `$ tar xf ~/Downloads/flutter_linux_1.22.5-stable.tar.xz`
 
-2. Set path:
+- Set path:
     
     ```export PATH="$PATH:`pwd`/flutter/bin"```
 
-3. Optionnal. If you don't want to send analytics to Google:
+- Optionnal. If you don't want to send analytics to Google:
    
     `$ flutter config --no-analytics`
 
-1. Optionally, pre-download development binaries:
+- Optionally, pre-download development binaries:
    
    `$ flutter precache`
 
-1. Run flutter doctor:
+- Run flutter doctor:
    
    `$ flutter doctor`
 
@@ -60,17 +60,17 @@ Doctor summary (to see all details, run flutter doctor -v):
 ```
 
 #### Update your path
-1. Add path:
+- Add path:
    
    `$ echo 'export PATH=$PATH:~/flutter/bin' >> ~/.bashrc`
    
    `$ source ~/.bashrc`
    
-2. Verify path:
+- Verify path:
    
    `$ echo $PATH`
    
-3. Verify that the flutter command is available:
+- Verify that the flutter command is available:
    
    `$ which flutter`
     
@@ -79,20 +79,20 @@ Doctor summary (to see all details, run flutter doctor -v):
    `$ which flutter dart`
 
 #### Install Android Studio
-1. Download android studio: https://developer.android.com/studio
+- Download android studio: https://developer.android.com/studio
 
     `$ ~cd`
 
     `$ tar xf ~/Downloads/android-studio-ide-201.6953283-linux.tar.gz`
 
-2. Set the path:
+- Set the path:
    
     `echo 'export PATH=$PATH:~/android-studio/bin' >> ~/.bashrc`
 
     `source ~/.bashrc`
 
 #### Install android licenses
-1. Run flutter doctor:
+ - Run flutter doctor:
     
     `$ flutter doctor`
 
@@ -109,11 +109,11 @@ Doctor summary (to see all details, run flutter doctor -v):
 
     ! Doctor found issues in 3 categories.
     ```
-2. Run android-licenses:
+ - Run android-licenses:
    
     `$ flutter doctor --android-licenses`
 
-3. Run flutter doctor:
+ - Run flutter doctor:
    
     `$ flutter doctor`
 
