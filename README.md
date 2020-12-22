@@ -5,23 +5,27 @@
 #### Install flutter manually
 1. Download here: https://flutter.dev/docs/get-started/install/linux
 
-    `$sudo apt update`
-    
+    `$ sudo apt update`
+
     `$ cd ~`
 
     `$ tar xf ~/Downloads/flutter_linux_1.22.5-stable.tar.xz`
 
 2. Set path:
-```export PATH="$PATH:`pwd`/flutter/bin"```
+    
+    ```export PATH="$PATH:`pwd`/flutter/bin"```
 
 3. Optionnal. If you don't want to send analytics to Google:
-`$ flutter config --no-analytics`
+   
+    `$ flutter config --no-analytics`
 
-4. Optionally, pre-download development binaries:
-`$ flutter precache`
+1. Optionally, pre-download development binaries:
+   
+   `$ flutter precache`
 
-5. Run flutter doctor:
-`$ flutter doctor`
+1. Run flutter doctor:
+   
+   `$ flutter doctor`
 
 ```
 Downloading Material fonts...                                       0.3s
@@ -56,62 +60,71 @@ Doctor summary (to see all details, run flutter doctor -v):
 ```
 
 #### Update your path
-1. Add path
-`$ echo 'export PATH=$PATH:~/flutter/bin' >> ~/.bashrc`
-`$ source ~/.bashrc`
-2. Verify path
-`$ echo $PATH`
-3. Verify that the flutter command is available
-`$ which flutter`
-OR
-`$ which flutter dart`
+1. Add path:
+   
+   `$ echo 'export PATH=$PATH:~/flutter/bin' >> ~/.bashrc`
+   
+   `$ source ~/.bashrc`
+   
+2. Verify path:
+   
+   `$ echo $PATH`
+   
+3. Verify that the flutter command is available:
+   
+   `$ which flutter`
+    
+    OR
+    
+   `$ which flutter dart`
 
 #### Install Android Studio
-1. Download android studio
-https://developer.android.com/studio
+1. Download android studio: https://developer.android.com/studio
 
-`$ ~cd`
+    `$ ~cd`
 
-`$ tar xf ~/Downloads/android-studio-ide-201.6953283-linux.tar.gz`
+    `$ tar xf ~/Downloads/android-studio-ide-201.6953283-linux.tar.gz`
 
-2. Set the path
+2. Set the path:
    
-`echo 'export PATH=$PATH:~/android-studio/bin' >> ~/.bashrc`
+    `echo 'export PATH=$PATH:~/android-studio/bin' >> ~/.bashrc`
 
-`source ~/.bashrc`
+    `source ~/.bashrc`
 
 #### Install android licenses
-`$ flutter doctor`
-```
-Doctor summary (to see all details, run flutter doctor -v):
-[✓] Flutter (Channel stable, 1.22.5, on Linux, locale en_US.UTF-8)
-[!] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
-    ✗ Android licenses not accepted.  To resolve this, run: flutter doctor --android-licenses
-[!] Android Studio
-    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
-    ✗ Dart plugin not installed; this adds Dart specific functionality.
-[!] Connected device
-    ! No devices available
 
-! Doctor found issues in 3 categories.
-```
+    `$ flutter doctor`
 
-`$ flutter doctor --android-licenses`
+    ```
+    Doctor summary (to see all details, run flutter doctor -v):
+    [✓] Flutter (Channel stable, 1.22.5, on Linux, locale en_US.UTF-8)
+    [!] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+        ✗ Android licenses not accepted.  To resolve this, run: flutter doctor --android-licenses
+    [!] Android Studio
+        ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+        ✗ Dart plugin not installed; this adds Dart specific functionality.
+    [!] Connected device
+        ! No devices available
 
-`$ flutter doctor`
+    ! Doctor found issues in 3 categories.
+    ```
 
-```
-Doctor summary (to see all details, run flutter doctor -v):
-[✓] Flutter (Channel stable, 1.22.5, on Linux, locale en_US.UTF-8)
-[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
-[!] f Studio
-    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
-    ✗ Dart plugin not installed; this adds Dart specific functionality.
-[!] Connected device
-    ! No devices available
+    `$ flutter doctor --android-licenses`
 
-! Doctor found issues in 2 categories.
-```
+    `$ flutter doctor`
+
+    ```
+    Doctor summary (to see all details, run flutter doctor -v):
+    [✓] Flutter (Channel stable, 1.22.5, on Linux, locale en_US.UTF-8)
+    [✓] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    [!] f Studio
+        ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+        ✗ Dart plugin not installed; this adds Dart specific functionality.
+    [!] Connected device
+        ! No devices available
+
+    ! Doctor found issues in 2 categories.
+    ```
 
 
 #### Set Flutter and Dart plugin
@@ -127,22 +140,22 @@ Doctor summary (to see all details, run flutter doctor -v):
 
 ??? if you still get `flutter and dart plugin not installed` error, do flowing: 
 
-`$ flutter channel dev`
+    `$ flutter channel dev`
 
-`$ flutter upgrade`
+    `$ flutter upgrade`
 
-`$ flutter doctor`
+    `$ flutter doctor`
 
-```
-Downloading package sky_engine...                                  238ms
-Downloading flutter_patched_sdk tools...                         1,606ms
-Downloading flutter_patched_sdk_product tools...                 1,168ms
-Downloading linux-x64 tools...                                   2,917ms
-Downloading linux-x64/font-subset tools...                         426ms
-Doctor summary (to see all details, run flutter doctor -v):
-[✓] Flutter (Channel dev, 1.26.0-1.0.pre, on Linux, locale en_US.UTF-8)
-[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
-[✓] Android Studio
-[!] Connected device
-    ! No devices available
-```
+    ```
+    Downloading package sky_engine...                                  238ms
+    Downloading flutter_patched_sdk tools...                         1,606ms
+    Downloading flutter_patched_sdk_product tools...                 1,168ms
+    Downloading linux-x64 tools...                                   2,917ms
+    Downloading linux-x64/font-subset tools...                         426ms
+    Doctor summary (to see all details, run flutter doctor -v):
+    [✓] Flutter (Channel dev, 1.26.0-1.0.pre, on Linux, locale en_US.UTF-8)
+    [✓] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    [✓] Android Studio
+    [!] Connected device
+        ! No devices available
+    ```
