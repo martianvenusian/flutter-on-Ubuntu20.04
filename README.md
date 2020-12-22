@@ -122,6 +122,27 @@ Doctor summary (to see all details, run flutter doctor -v):
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/flutter_plug-in_1.png?raw=true)
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/flutter_plug-in_2.png?raw=true)
 
+??? if you get still `flutter and dart plugin not installed` error, do flowing: 
+
+`$ flutter channel dev`
+`$ flutter upgrade`
+`$ flutter doctor`
+
+```
+Downloading package sky_engine...                                  238ms
+Downloading flutter_patched_sdk tools...                         1,606ms
+Downloading flutter_patched_sdk_product tools...                 1,168ms
+Downloading linux-x64 tools...                                   2,917ms
+Downloading linux-x64/font-subset tools...                         426ms
+Doctor summary (to see all details, run flutter doctor -v):
+[✓] Flutter (Channel dev, 1.26.0-1.0.pre, on Linux, locale en_US.UTF-8)
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+[✓] Android Studio
+[!] Connected device
+    ! No devices available
+```
+
+
 
 ### Run Android 
 
