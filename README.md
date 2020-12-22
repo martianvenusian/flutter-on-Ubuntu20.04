@@ -143,18 +143,3 @@ Doctor summary (to see all details, run flutter doctor -v):
 [!] Connected device
     ! No devices available
 ```
-
-
-
-### Run Android 
-
-1. Run Android Studio 
-   
-`studio.sh`
-![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/android_install_1.png?raw=true)
-
-5. Create new application
-![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/android_new_appicaiton_1.png?raw=true)
-
-6. Go to Tools/Android SDK/
-![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/android_sdk_1.png?raw=true)
