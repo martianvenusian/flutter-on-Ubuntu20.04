@@ -142,6 +142,10 @@ Doctor summary (to see all details, run flutter doctor -v):
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/flutter_plug-in_1.png?raw=true)
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/flutter_plug-in_2.png?raw=true)
 
+ - Run flutter doctor again: 
+
+   `$ flutter doctor`
+   
  - if you still get `flutter and dart plugin not installed` error, do following: 
 
     `$ flutter channel dev`
