@@ -6,17 +6,26 @@
 download here: https://flutter.dev/docs/get-started/install/linux
 
 `$ cd ~`
+
 `$ tar xf ~/Downloads/flutter_linux_1.22.5-stable.tar.xz`
+
 ```export PATH="$PATH:`pwd`/flutter/bin"```
+
 `sudo apt update`
 
 
 Optionnal. If you don't want to send analytics to Google
+
 `$ flutter config --no-analytics`
+
 Optionally, pre-download development binaries
+
 `$ flutter precache`
+
 Run flutter doctor
+
 `$ flutter precache`
+
 ```
 Downloading Material fonts...                                       0.3s
 Downloading Gradle Wrapper...                                       0.0s
