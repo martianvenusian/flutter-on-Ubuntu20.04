@@ -110,6 +110,7 @@ Doctor summary (to see all details, run flutter doctor -v):
     ! Doctor found issues in 3 categories.
     ```
 2. Run android-licenses:
+   
     `$ flutter doctor --android-licenses`
 
 3. Run flutter doctor:
@@ -141,7 +142,7 @@ Doctor summary (to see all details, run flutter doctor -v):
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/flutter_plug-in_1.png?raw=true)
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/flutter_plug-in_2.png?raw=true)
 
-??? if you still get `flutter and dart plugin not installed` error, do flowing: 
+ - if you still get `flutter and dart plugin not installed` error, do following: 
 
     `$ flutter channel dev`
 
