@@ -92,7 +92,8 @@ Doctor summary (to see all details, run flutter doctor -v):
     `source ~/.bashrc`
 
 #### Install android licenses
-
+1. Run flutter doctor:
+    
     `$ flutter doctor`
 
     ```
@@ -108,9 +109,11 @@ Doctor summary (to see all details, run flutter doctor -v):
 
     ! Doctor found issues in 3 categories.
     ```
-
+2. Run android-licenses:
     `$ flutter doctor --android-licenses`
 
+3. Run flutter doctor:
+   
     `$ flutter doctor`
 
     ```
