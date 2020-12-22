@@ -113,11 +113,11 @@ Doctor summary (to see all details, run flutter doctor -v):
 
 4. Set Flutter and Dart plugin
 
-1.) Start the Android Studio application
-2.) Open plugin preferences (Preferences>Plugins on macOS, File>Settings>Plugins on Windows & Linux).
-3.) Select Browse repositories…, select the Flutter plug-in and click install .
-4.) Click Yes when prompted to install the Dart plugin.
-5.) Click Restart when prompted.
+- Start the Android Studio application.
+- File>Settings>Plugins.
+- Select Browse repositories…, select the Flutter plug-in and click install .
+- Click Yes when prompted to install the Dart plugin.
+- Click Restart when prompted.
 
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/flutter_plug-in_1.png?raw=true)
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/flutter_plug-in_2.png?raw=true)
