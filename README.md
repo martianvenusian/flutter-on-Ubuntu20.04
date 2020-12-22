@@ -1,12 +1,14 @@
 # Flutter-on-Ubuntu20.04
 ## Install Flutter on Ubuntu 20.04 LTS
 
-`sudo apt update`
+    
 #### Install flutter manually
 1. Download here: https://flutter.dev/docs/get-started/install/linux
 
-    `$ cd ~`
+    `$sudo apt update`
     
+    `$ cd ~`
+
     `$ tar xf ~/Downloads/flutter_linux_1.22.5-stable.tar.xz`
 
 2. Set path:
