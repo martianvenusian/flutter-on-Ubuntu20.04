@@ -1,9 +1,8 @@
 # Flutter-on-Ubuntu20.04
 ## Install Flutter on Ubuntu 20.04 LTS
 
-### Install Flutter manually
 `sudo apt update`
-
+#### Install flutter manually
 1. Download here: https://flutter.dev/docs/get-started/install/linux
 
 `$ cd ~`
@@ -64,7 +63,7 @@ Doctor summary (to see all details, run flutter doctor -v):
 OR
 `$ which flutter dart`
 
-### Install Android Studio
+#### Install Android Studio
 1. Download android studio
 https://developer.android.com/studio
 
@@ -78,7 +77,7 @@ https://developer.android.com/studio
 
 `source ~/.bashrc`
 
-3. Install android licenses
+#### Install android licenses
 `$ flutter doctor`
 ```
 Doctor summary (to see all details, run flutter doctor -v):
@@ -112,7 +111,7 @@ Doctor summary (to see all details, run flutter doctor -v):
 ```
 
 
-### Set Flutter and Dart plugin
+#### Set Flutter and Dart plugin
 
 - Start the Android Studio application.
 - File>Settings>Plugins.
