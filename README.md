@@ -64,7 +64,7 @@ Doctor summary (to see all details, run flutter doctor -v):
 OR
 `$ which flutter dart`
 
-### Install Android 
+### Install Android Studio
 1. Download android studio
 https://developer.android.com/studio
 
@@ -111,7 +111,8 @@ Doctor summary (to see all details, run flutter doctor -v):
 ! Doctor found issues in 2 categories.
 ```
 
-4. Set Flutter and Dart plugin
+
+### Set Flutter and Dart plugin
 
 - Start the Android Studio application.
 - File>Settings>Plugins.
