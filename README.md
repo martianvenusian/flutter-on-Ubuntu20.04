@@ -182,6 +182,7 @@ In case these is troubleshoot which is `/dev/kvm is not found` then first solve 
  - In Advanced tab Choose,Cpu configuration and Enabled Intel Virtualization Technology,Finally Save the Changes and Restart Your Computer.
 
 ##### Continiue:
+- `Troubleshoot` has gone
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_2.png?raw=true)
  - Select `Create Virtual Device`
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_3.png?raw=true)
