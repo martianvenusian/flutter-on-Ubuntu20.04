@@ -168,13 +168,28 @@ Doctor summary (to see all details, run flutter doctor -v):
         ! No devices available
     ```
 ### Adding an Android Emulator
-
+Open Android Studio > Go to [Tools] > Choose [AVD Manager]
+* Troublesoot:
+In case these is troubleshoot which is `/dev/kvm is not found` then first solve the problem
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_1.png?raw=true)
-![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_2.png?raw=true)
+* Solution:
+
+ - Restart your computer and Go to the system BIOS (press Del or F2 (It is different in each system,my system is Del key))
+
+ - In Advanced tab Choose,Cpu configuration and Enabled Intel Virtualization Technology,Finally Save the Changes and Restart Your Computer.
+
+* Continiue:
+ - Select `Create Virtual Device`
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_3.png?raw=true)
+ - Choose `Phone` and click `Next`
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_4.png?raw=true)
+- Choose a device name (for ex:`PixelXL`) and click `Next`
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_5.png?raw=true)
+- Download and install system image (for ex:`R`) and click `Next`
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_6.png?raw=true)
+- Make AVD Name  (for ex:`Pixel XL API 30`) and click `Finish`
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_7.png?raw=true)
+- Click Actions to play
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_8.png?raw=true)
+- here it is
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_9.png?raw=true)
