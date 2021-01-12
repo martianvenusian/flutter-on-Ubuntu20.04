@@ -167,3 +167,11 @@ Doctor summary (to see all details, run flutter doctor -v):
     [!] Connected device
         ! No devices available
     ```
+### Adding an Android Emulator
+
+![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_1.png.png?raw=true)
+![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_2.png.png?raw=true)
+![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_3.png.png?raw=true)
+![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_4.png.png?raw=true)
+![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_5.png.png?raw=true)
+![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_6.png.png?raw=true)
