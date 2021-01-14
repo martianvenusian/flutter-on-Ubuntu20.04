@@ -5,11 +5,11 @@
 #### Install flutter manually
  - Download here: https://flutter.dev/docs/get-started/install/linux
 
-    `$ sudo apt update`
+    ```$ sudo apt update```
 
-    `$ cd ~`
+    ```$ cd ~```
 
-    `$ tar xf ~/Downloads/flutter_linux_1.22.5-stable.tar.xz`
+    ```$ tar xf ~/Downloads/flutter_linux_1.22.5-stable.tar.xz```
 
 - Set path:
     
@@ -17,15 +17,15 @@
 
 - Optionnal. If you don't want to send analytics to Google:
    
-    `$ flutter config --no-analytics`
+    ```$ flutter config --no-analytics```
 
 - Optionally, pre-download development binaries:
    
-   `$ flutter precache`
+   ```$ flutter precache```
 
 - Run flutter doctor:
    
-   `$ flutter doctor`
+   ```$ flutter doctor```
 
 ```
 Downloading Material fonts...                                       0.3s
@@ -62,39 +62,39 @@ Doctor summary (to see all details, run flutter doctor -v):
 #### Update your path
 - Add path:
    
-   `$ echo 'export PATH=$PATH:~/flutter/bin' >> ~/.bashrc`
+   ```$ echo 'export PATH=$PATH:~/flutter/bin' >> ~/.bashrc```
    
-   `$ source ~/.bashrc`
+   ```$ source ~/.bashrc```
    
 - Verify path:
    
-   `$ echo $PATH`
+   ```$ echo $PATH```
    
 - Verify that the flutter command is available:
    
-   `$ which flutter`
+   ```$ which flutter```
     
     OR
     
-   `$ which flutter dart`
+   ```$ which flutter dart```
 
 #### Install Android Studio
 - Download android studio: https://developer.android.com/studio
 
-    `$ ~cd`
+    ```$ ~cd```
 
-    `$ tar xf ~/Downloads/android-studio-ide-201.6953283-linux.tar.gz`
+    ```$ tar xf ~/Downloads/android-studio-ide-201.6953283-linux.tar.gz```
 
 - Set the path:
    
-    `echo 'export PATH=$PATH:~/android-studio/bin' >> ~/.bashrc`
+    ```echo 'export PATH=$PATH:~/android-studio/bin' >> ~/.bashrc```
 
-    `source ~/.bashrc`
+    ```source ~/.bashrc```
 
 #### Install android licenses
  - Run flutter doctor:
     
-    `$ flutter doctor`
+    ```$ flutter doctor```
 
     ```
     Doctor summary (to see all details, run flutter doctor -v):
@@ -111,11 +111,11 @@ Doctor summary (to see all details, run flutter doctor -v):
     ```
  - Run android-licenses:
    
-    `$ flutter doctor --android-licenses`
+    ```$ flutter doctor --android-licenses```
 
  - Run flutter doctor:
    
-    `$ flutter doctor`
+    ```$ flutter doctor```
 
     ```
     Doctor summary (to see all details, run flutter doctor -v):
@@ -144,15 +144,15 @@ Doctor summary (to see all details, run flutter doctor -v):
 
  - Run flutter doctor again: 
 
-   `$ flutter doctor`
+   ```$ flutter doctor```
    
  - if you still get `flutter and dart plugin not installed` error, do following: 
 
-    `$ flutter channel dev`
+    ```$ flutter channel dev```
 
-    `$ flutter upgrade`
+    ```$ flutter upgrade```
 
-    `$ flutter doctor`
+    ```$ flutter doctor```
 
     ```
     Downloading package sky_engine...                                  238ms
@@ -203,15 +203,16 @@ In case these is a problem which says `/dev/kvm is not found` then first solve i
 
 Go to project project folder where you want create flutter projects.
 
-Create a flutter project. You can choose any name for your application. For example `flutter_test_project` in our case.
+Create a flutter project. You can choose any name for your application. 
+In our case `flutter_test_project`.
 
-`$ flutter create flutter_test_project`
+```$ flutter create flutter_test_project```
 
 If evering goes well then go into `flutter_test_project` folder and run
 
-`$ cd flutter_test_project`
+```$ cd flutter_test_project```
 
-`$ flutter run`
+```$ flutter run```
 
 ```
     Using hardware rendering with device sdk gphone x86 arm. If you notice graphics artifacts, consider enabling software rendering with "--enable-software-rendering".
