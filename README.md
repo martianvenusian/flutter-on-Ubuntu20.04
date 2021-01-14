@@ -201,14 +201,14 @@ In case these is a problem which says `/dev/kvm is not found` then first solve i
 
 ### Creatining a new flutter project
 
-Go to project project folder where you want create flutter projects.
+Go to project project folder where you want to create flutter projects.
 
 Create a flutter project. You can choose any name for your application. 
 In our case `flutter_test_project`.
 
 ```$ flutter create flutter_test_project```
 
-If evering goes well then go into `flutter_test_project` folder and run
+If everything goes well then go to `flutter_test_project` folder and run the project.
 
 ```$ cd flutter_test_project```
 
