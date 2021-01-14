@@ -237,3 +237,7 @@ If everything goes well then go to `flutter_test_project` folder and run the pro
 ```
 
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/flutter_project_1.png?raw=true)
+
+
+
+praise THE LORD
