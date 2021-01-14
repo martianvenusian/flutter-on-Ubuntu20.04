@@ -236,4 +236,4 @@ If evering goes well then go into `flutter_test_project` folder and run
     For more information see https://dart.dev/null-safety/unsound-null-safety
 ```
 
-![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_9.png?raw=true)
+![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/flutter_project_1.png?raw=true)
