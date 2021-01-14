@@ -198,3 +198,41 @@ In case these is a problem which says `/dev/kvm is not found` then first solve i
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_8.png?raw=true)
 - here it is
 ![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_9.png?raw=true)
+
+### Creatining a new flutter project
+
+Go to project project folder where you want create flutter projects.
+
+Create a flutter project. You can choose any name for your application. For example `flutter_test_project` in our case.
+
+`$ flutter create flutter_test_project`
+
+If evering goes well then go into `flutter_test_project` folder and run
+
+`$ cd flutter_test_project`
+
+`$ flutter run`
+
+```
+    Using hardware rendering with device sdk gphone x86 arm. If you notice graphics artifacts, consider enabling software rendering with "--enable-software-rendering".
+    Launching lib/main.dart on sdk gphone x86 arm in debug mode...
+    Running Gradle task 'assembleDebug'...                                  
+    Running Gradle task 'assembleDebug'... Done                        10.5s
+    ✓ Built build/app/outputs/flutter-apk/app-debug.apk.
+    Installing build/app/outputs/flutter-apk/app.apk...                435ms
+    Syncing files to device sdk gphone x86 arm...                       54ms
+
+    Flutter run key commands.
+    r Hot reload. 🔥🔥🔥
+    R Hot restart.
+    h Repeat this help message.
+    d Detach (terminate "flutter run" but leave application running).
+    c Clear the screen
+    q Quit (terminate the application on the device).
+    An Observatory debugger and profiler on sdk gphone x86 arm is available at: http://127.0.0.1:43923/bN7bYX6rsSg=/
+
+    Running with unsound null safety
+    For more information see https://dart.dev/null-safety/unsound-null-safety
+```
+
+![alt text](https://github.com/martianvenusian/flutter-on-Ubuntu20.04/blob/main/images/adding_emulator_9.png?raw=true)
